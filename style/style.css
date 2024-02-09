@@ -26,6 +26,24 @@ body {
     background-color: var(--color-scondary);
     color: var(--color-primary);
 }
+.btn-shape {
+    border: none;
+    background: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+.btn-scondary {
+    background-color: var(--color-scondary);
+}
+.btn-primary {
+    background-color: var(--color-primary);
+}
+.btn-contrast {
+    background-color: var(--color-contrast);
+}
+.text-scondary {
+    color: var(--color-scondary);
+}
 /* header */
 header{
     background-color: var(--color-header-bg);
