@@ -101,6 +101,9 @@ footer ul li {
 .text-contrast {
     color: var(--color-contrast);
 }
+footer .top {
+    border-bottom: 1px solid var(--color-contrast);
+}
 /* utility */
 .container {
     max-width: 1200px;
