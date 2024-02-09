@@ -26,6 +26,9 @@ body {
     background-color: var(--color-scondary);
     color: var(--color-primary);
 }
+img {
+    max-width: 100%;
+}
 .btn-shape {
     border: none;
     background: none;
