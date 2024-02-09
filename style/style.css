@@ -47,6 +47,9 @@ header{
     width: 40%;
     padding-top: 3%;
 }
+.text-align-center {
+    text-align: center;
+}
 /* footer */
 footer {
     background-color: var(--color-primary);
