@@ -17,6 +17,7 @@ a {
     --color-header-bg: #255ee9;
     --color-section-bg: #f6f6f6;
     --color-contrast: #aebbe7;
+    --color-ds-contrast: #7289da;
 }
 .debug {
     border:1px solid red;
@@ -34,6 +35,7 @@ img {
     background: none;
     border-radius: 15px;
     padding: 10px;
+    margin: 7px;
 }
 .btn-scondary {
     background-color: var(--color-scondary);
@@ -42,7 +44,7 @@ img {
     background-color: var(--color-primary);
 }
 .btn-contrast {
-    background-color: var(--color-contrast);
+    background-color: var(--color-ds-contrast);
 }
 button:hover {
         box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
@@ -86,6 +88,9 @@ header{
 .text-align-center {
     text-align: center;
 }
+.text-contrast {
+    color: var(--color-ds-contrast);
+}
 #call-to-action {
     padding-bottom: 3%;
 }
@@ -109,9 +114,6 @@ footer.top {
 footer ul li {
     font-size: 12px;
     padding: 7px;
-}
-.text-contrast {
-    color: var(--color-contrast);
 }
 footer .top {
     border-bottom: 1px solid var(--color-contrast);
