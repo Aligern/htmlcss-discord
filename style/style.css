@@ -45,7 +45,7 @@ img {
     background-color: var(--color-contrast);
 }
 button:hover {
-        box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+        box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
 }
 .text-scondary {
     color: var(--color-scondary);
@@ -89,6 +89,15 @@ header{
 #call-to-action {
     padding-bottom: 3%;
 }
+/* SVG style */
+.wave-1hkxOo {
+    color: var(--color-section-bg);
+    display: block;
+}
+#wave-1hkxOo-reverse {
+    color: var(--color-section-bg);
+    transform: matrix( 1, 0, 0, -1, 0, 0);
+}
 /* footer */
 footer {
     background-color: var(--color-primary);
@@ -99,7 +108,7 @@ footer.top {
 }
 footer ul li {
     font-size: 12px;
-    padding: 10px;
+    padding: 7px;
 }
 .text-contrast {
     color: var(--color-contrast);
