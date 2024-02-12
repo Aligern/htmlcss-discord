@@ -133,7 +133,7 @@ footer ul li {
     padding: 7px;
 }
 footer .top {
-    border-bottom: 1px solid var(--color-contrast);
+    border-bottom: 1px solid var(--color-ds-contrast);
 }
 footer div {
     padding-top:  12px;
